@@ -3,7 +3,7 @@ const userInput = document.getElementById('user-input');
 
 function sendMessage() {
   const message = userInput.value;
-  const reply = handleWeatherQuestion(message); // Use handleWeatherQuestion instead of getReply
+  const reply = handleWeatherQuestion(message);
   addMessage('user', message);
   addMessage('bot', reply);
   userInput.value = '';
