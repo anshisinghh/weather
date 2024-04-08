@@ -146,17 +146,17 @@
         }
     }
 
-
     .chat-container {
-        max-width: 400px;
-        margin: 50px auto;
+        /* max-width: 40em; */
+        margin: 0.5em auto;
         padding: 20px;
         background-color: white;
         border-radius: 5px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
     .chat-box {
-        height: 200px;
+        height: 10em;
+        width: 20em;
         overflow-y: scroll;
         padding: 10px;
         margin-bottom: 10px;
@@ -171,7 +171,7 @@
     } 
     button {
         padding: 5px 10px;
-        background-color: #007bff;
+        background-color: #16425b;
         color: #fff;
         border: none;
         border-radius: 3px;
