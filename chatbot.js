@@ -19,15 +19,15 @@ function addMessage(sender, message) {
 
 function getReply(message) {
   let reply = '';
-  if (message.toLowerCase().includes('sunny')) {
+  if (message.toLowerCase().includes('sun')) {
     reply = 'You should wear a t-shirt and shorts.';
-  } else if (message.toLowerCase().includes('rainy')) {
+  } else if (message.toLowerCase().includes('rain')) {
     reply = 'You should wear rain boots and a raincoat.';
-  } else if (message.toLowerCase().includes('cloudy')) {
+  } else if (message.toLowerCase().includes('cloud')) {
     reply = 'You should wear a light jacket.';
-  } else if (message.toLowerCase().includes('windy')) {
+  } else if (message.toLowerCase().includes('wind')) {
     reply = 'You should wear a windbreaker.';
-  } else if (message.toLowerCase().includes('snowy')) {
+  } else if (message.toLowerCase().includes('snow')) {
     reply = 'You should wear a heavy coat, gloves, and boots.';
   } else {
     reply = 'What is the weather like?';
