@@ -1,10 +1,6 @@
 const chatBox = document.getElementById('chat-box');
 const userInput = document.getElementById('user-input');
 
-// window.onload = function() {
-//     sendMessage('Hello! What is the weather like?');
-// };
-
 function sendMessage() {
   const message = userInput.value;
   const reply = handleWeatherQuestion(message); // Use handleWeatherQuestion instead of getReply
